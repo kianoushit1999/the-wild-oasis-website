@@ -5,7 +5,7 @@ import bg from "@/public/bg.png";
 export default function Home() {
   return (
     <>
-      <main className="mt-24">
+      <main className="max-w-7xl mx-auto flex justify-center items-center flex-1  mt-24">
         <Image src={bg} className="object-cover" placeholder="blur" fill quality={80} alt="Mountains and forests with two cabins" />
 
         <div className="relative z-10 text-center">

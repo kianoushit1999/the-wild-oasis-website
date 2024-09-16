@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${josefin.className} bg-primary-900 text-primary-100 min-h-screen flex flex-col relative`}>
         <Header  />
-        <main className="flex justify-center items-center flex-1 max-w-7xl mx-auto">{children}</main>
+        <main className="flex-1 flex flex-col">{children}</main>
       </body>
     </html>
   );
