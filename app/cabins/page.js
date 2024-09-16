@@ -1,4 +1,6 @@
-"use client";
+export const metadata = {
+    title: "Cabins"
+}
 
 export default function Page() {
 
