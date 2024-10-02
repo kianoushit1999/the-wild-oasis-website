@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Reservation"
+}
+
 function Page() {
   const bookings = [];
 

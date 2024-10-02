@@ -5,7 +5,6 @@ import Header from "./_components/Header";
 const josefin = Josefin_Sans({
   subsets: ["latin"],
   display: "swap",
-
 })
 
 export const metadata = {
